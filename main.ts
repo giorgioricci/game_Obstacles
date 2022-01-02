@@ -16,8 +16,8 @@ basic.forever(function () {
     }
     if (player.isTouching(obstacle)) {
         game.gameOver()
-        basic.pause(200)
     }
+    basic.pause(200)
     game.addScore(1)
     obstacle.delete()
 })
